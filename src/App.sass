@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap')
+
+
+html
+  font-family: 'Roboto', sans-serif
+
+body
+  margin: 0
+
+.App
+  display: flex
+  flex-direction: column
+  align-items: center
+  height: 100vh
+  background: #7997aa
+
+.container
+  display: flex
+  flex-direction: column
+  align-items: center
+  width: 85%
+
+.searching
+  display: flex
+  flex-direction: row
+  border-radius: 0 0 10px 10px
+  border: none
+  overflow: hidden
+  &-wrapper
+    display: flex
+    align-items: center
+    margin-bottom: 50px
+    &__save-btn
+      width: 50px
+      margin-left: 10px
+  &__input[type='text']
+    width: 100%
+    padding: 20px 15px
+    font-size: 23px
+    border: none
+    background: #f9fdff
+    font-weight: bold
+    color: #404143
+    text-transform: uppercase
+  &__btn
+    padding: 0 10px
+    text-transform: uppercase
+    font-weight: bold
+    border: none
+    background: rgb(119, 44, 232)
+    color: #f5f5f7
+
+.info
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  min-width: 100%
+  height: 160px
+  margin-bottom: 50px
+  border-radius: 10px
+  background-color: #f9fdff
+  color: #404143
+  &-title-wrapper
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: center
+  &__title
+  &__temperature
+    font-size: 22px
+    font-weight: bold
+    color: rgb(119, 44, 232)
+
+.icon
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  align-items: center
+  &__description
+    text-align: center
+    text-transform: uppercase
+    color: rgb(119, 44, 232)
+  &__img
+    width: 80px
+    color: #f5f5f7
+
+.more-info
+  display: flex
+  flex-direction: column
+  min-width: 100%
+  height: 160px
+  border-radius: 10px
+  background-color: #f9fdff
+  color: #404143
+  &__title
+    margin-bottom: 10px
+  &__description
+    color: rgb(119, 44, 232)
